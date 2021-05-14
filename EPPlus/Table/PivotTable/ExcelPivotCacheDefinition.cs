@@ -220,10 +220,10 @@ namespace OfficeOpenXml.Table.PivotTable
                             _sourceRange = ws.Cells[GetXmlNodeString(_sourceAddressPath)];
                         }
                     }
-                    else
-                    {
-                        throw (new ArgumentException("The cachesource is not a worksheet"));
-                    }
+                    //else
+                    //{
+                    //    throw (new ArgumentException("The cachesource is not a worksheet"));
+                    //}
                 }
                 return _sourceRange;
             }
