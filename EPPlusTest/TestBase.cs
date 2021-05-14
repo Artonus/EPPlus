@@ -11,8 +11,8 @@ namespace EPPlusTest
     {
         protected ExcelPackage _pck;
         protected string _clipartPath="";
-        protected string _worksheetPath= @"c:\epplusTest\Testoutput\";
-        protected string _testInputPath = @"c:\epplusTest\workbooks\";
+        protected string _worksheetPath= @"c:\Works\epplusTest\Testoutput\";
+        protected string _testInputPath = @"c:\Works\epplusTest\workbooks\";
         public TestContext TestContext { get; set; }
         
         [TestInitialize]
